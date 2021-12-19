@@ -238,6 +238,19 @@ h1#slogan-top {
     height: 300px;
     justify-content: space-between;
     padding: 25px;
+    transition: transform .5s ease;
+}
+#ballastixx:hover {
+    transform: scale(1.2);
+}
+#jellybabies:hover {
+    transform: scale(1.2);
+}
+#squidglets:hover {
+    transform: scale(1.2);
+}
+#supermix:hover {
+    transform: scale(1.2);
 }
 .left-tilt {
     transform: rotate(-5deg);

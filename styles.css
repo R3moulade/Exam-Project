@@ -171,6 +171,8 @@ h1#slogan-top {
 
 #bi-trans-flag {
     background-image: url(images/bi-trans-flag.png);
+    height: 800px;
+    display: block;
 }
 .blob-left {
     float: left;
@@ -193,7 +195,6 @@ h1#slogan-top {
 .flag {
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: top;
     height: 800px;
 }
 #picture {
@@ -206,28 +207,20 @@ h1#slogan-top {
     display: block;
     width: 50%;
 }
+#or2 {
+    display: none;
+}
 #nv {
     background-image: url(images/NV.png);
     height: 400px;
     background-size: cover;
     background-repeat: no-repeat;
 }
-#nv2 {
-    display: block;
-    background-image: url(images/nv2.png);
-    height: 550px;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-#ingredients2 {
-    display: block;
-    background-image: url(images/ingredients2.png);
-    height: 550px;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
 #ingredients {
-    display: none;
+    background-image: url(images/ingredients.png);
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 #footer-picture {
     background-image: url(images/footer.png);
@@ -260,15 +253,31 @@ h1#slogan-top {
     /* LANDING */
 #burger-menu {
     height: 52px;
-    min-width: 490px;
+    min-width: 100px;
     padding-left: 20px;
     border-radius: 26px;
     float: right;
     align-items: center;
     text-align: center;
     background-color: white;
+    position: relative;
+    top: -47px;
+    align-items: center;
+    justify-content: space-between;
+
+    display: block;
 }
-    #hero {
+#burger-menu img#search {
+    position: relative;
+    top: 10px;
+    right: 17px;
+}
+#burger-menu img#burger {
+    position: relative;
+    right: 12px;
+    top: 10px;
+}
+#hero {
    height: 550px;
 }
 .hero-wrapper {
@@ -350,7 +359,20 @@ h1#slogan-top {
   border-radius: 7px;
   float: none;
 }
-
+#nv2 {
+    display: block;
+    background-image: url(images/nv2.png);
+    height: 550px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#ingredients2 {
+    display: block;
+    background-image: url(images/ingredients2.png);
+    height: 550px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 #bi-trans-flag {
     display: none;
 }

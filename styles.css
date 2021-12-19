@@ -218,7 +218,7 @@ h1#slogan-top {
     background-repeat: no-repeat;
 }
 #ingredients {
-    background-image: url(images/ingredients.PNG);
+    background-image: url(images/ingredients1.png);
     height: 400px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -387,7 +387,7 @@ h1#slogan-top {
 }
 #ingredients2 {
     display: block;
-    background-image: url(images/ingredients2.PNG);
+    background-image: url(images/ingredients-2.png);
     height: 550px;
     background-size: cover;
     background-repeat: no-repeat;

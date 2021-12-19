@@ -381,14 +381,14 @@ h1#slogan-top {
 #nv2 {
     display: block;
     background-image: url(images/nv2.png);
-    height: 550px;
+    height: 600px;
     background-size: cover;
     background-repeat: no-repeat;
 }
 #ingredients2 {
     display: block;
     background-image: url(images/ingredients-2.png);
-    height: 550px;
+    height: 600px;
     background-size: cover;
     background-repeat: no-repeat;
 }

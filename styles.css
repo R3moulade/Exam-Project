@@ -1,0 +1,434 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+body {
+    font-family: "VAG Rounded", sans-serif;
+    
+}
+
+/* LANDING */
+#hero {
+    background-color: #E80481;
+    background-image: url(images/rainbow_flag.png);
+    
+}
+.hero-wrapper {
+    margin: 0 120px;
+}
+header {
+    height: 150px;
+}
+#top-right-header {
+    height: 30px;
+    padding: 0 10px;
+    border-radius: 15px;
+    margin-bottom: 5px;
+    margin-right: 40px;
+    float: right;
+    position: relative;
+    top: 36px;
+    right: 40px;
+}
+#header-bottom {
+    justify-content: space-between;
+    width: auto;
+    align-items: center;
+    display: flex;
+    padding-top: 70px;
+}
+#haribo {
+    float: left;
+}
+#bottom-right-header {
+    height: 52px;
+    min-width: 490px;
+    padding-left: 20px;
+    border-radius: 26px;
+    float: right;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    right: -100px;
+}
+#bottom-right-header a, img#search {
+    justify-content: space-around;
+    padding: 0 10px;
+    font-size: 28px;
+    text-align: center;
+    align-items: center;
+    position: relative;
+}
+img#search {
+    position: relative;
+    top: -70px;
+}
+#bottom-right-header, #top-right-header {
+    background-color: white;
+    pointer-events: all;
+    position: relative;
+    align-items: center;
+    float: right;
+    justify-content: space-between;
+}
+#bottom-right-header a, #top-right-header a {
+    text-decoration: none;
+    color: rgb(216,35,42);
+    font-family: "VAG Rounded";
+    font-weight: 500;
+    text-align: center;
+    position: relative;
+    top: 5px;
+}
+#bottom-right-header a {
+    position: relative;
+    top: -75px;
+}
+#top-right-header a {
+    padding: 0 5px;
+
+}
+#bear-nav {
+    position: relative;
+    top: -30px;
+    right: -11px;
+}
+div#slogan-product {
+    display: flex;
+}
+h1 {
+    color: white;
+    font-family: "VAG Rounded";
+    font-weight: bold;
+    font-size: 35px;
+    float: left;
+    display: block;
+    left: -114px;
+}
+h1#slogan-top {
+    position: relative;
+}
+.slogan-bottom {
+    position: relative;
+    top: 178px;
+}
+/* BAGS */
+.bags-tilt-1 {
+    height: 500px;
+    transform: rotate(-10deg);
+    float: right;
+}
+#bag-1 {
+    position: relative;
+    top: 35px;
+    right: -85px;
+}
+.bags-tilt-2 {
+    height: 500px;
+    transform: rotate(10deg);
+    float: left;
+    position: relative;
+    left: 100px;
+    top: 150px;
+}
+#bag-3 {
+    position: relative;
+    right: 100px;
+    
+}
+#nb-bag {
+    position: relative;
+    top: -400px;
+}
+/* MAIN */
+.white {
+    height: 450px;
+}
+#blob-right {
+    float: right;
+    position: relative;
+    right: 130px;
+    top: 45px;
+}
+.button {
+    background-color: white;
+  border: none;
+  color: #E80481;
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  width: 95px;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  position: relative;
+  left: 145px;
+  top: 275px;
+  border-radius: 7px;
+  float: right;
+}
+
+#bi-trans-flag {
+    background-image: url(images/bi-trans-flag.png);
+}
+.blob-left {
+    float: left;
+    position: relative;
+    right: 300px;
+    top: 350px;
+}
+
+#blob3 {
+    position: relative;
+    right: -180px;
+    top: -400px;
+}
+
+#nb-flag {
+    background-image: url(images/nb.png);
+    margin-top: 500px;
+    height: 300px;
+}
+.flag {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    height: 800px;
+}
+#picture {
+    background-image: url(images/picture.png);
+    height: 365px;
+}
+#or {
+    align-items: center;
+    margin: 50px auto;
+    display: block;
+    width: 50%;
+}
+#nv {
+    background-image: url(images/NV.png);
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#nv2 {
+    display: block;
+    background-image: url(images/nv2.png);
+    height: 550px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#ingredients2 {
+    display: block;
+    background-image: url(images/ingredients2.png);
+    height: 550px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#ingredients {
+    display: none;
+}
+#footer-picture {
+    background-image: url(images/footer.png);
+    height: 1850px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#other-products {
+    display: inline-flex;
+    margin-top: 200px;
+    justify-content: space-between;
+    padding: 10px;
+}
+#other-products img {
+    height: 300px;
+    justify-content: space-between;
+    padding: 25px;
+}
+.left-tilt {
+    transform: rotate(-5deg);
+}
+.right-tilt {
+    transform: rotate(5deg);
+}
+.displaynone {
+    display: none;
+}
+/* MEDIA */
+@media only screen and (max-width: 1023px) {
+    /* LANDING */
+#burger-menu {
+    height: 52px;
+    min-width: 490px;
+    padding-left: 20px;
+    border-radius: 26px;
+    float: right;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+}
+    #hero {
+   height: 550px;
+}
+.hero-wrapper {
+    margin: 0 20px;
+}
+#top-right-header {
+    display: none;
+}
+h1 {
+    font-size: 25px;
+    position: relative;
+}
+#haribo {
+    float: left;
+    position: relative;
+    top: -45px;
+}
+#bottom-right-header {
+display: none;
+}
+h1#slogan-top {
+    display: none;
+}
+.slogan-bottom {
+    display: none;
+}
+/* BAGS */
+.displaynone {
+    display: contents;
+}
+.bags-tilt-1 {
+    height: 300px;
+}
+#bag-3 {
+    bottom: 380px;
+}
+#bag-1 {
+    top: -10px;
+    left: 90px;
+}
+.bags-tilt-2 {
+    height: 300px;
+    left: 45px;
+    top: 400px;
+    position: relative;
+}
+
+#nb-bag {
+    position: relative;
+    top: 0px;
+}
+/* MAIN */
+.white {
+    height: 450px;
+}
+#blob-right {
+    right: -20px;
+    top: -250px;
+    height: 340px;
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+}
+.button {
+    background-color: white;
+  border: none;
+  color: #E80481;
+  padding: 5px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  width: 95px;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  position: relative;
+  left: 133px;
+  top: -370px;
+  border-radius: 7px;
+  float: none;
+}
+
+#bi-trans-flag {
+    display: none;
+}
+#bi-flag {
+    background-image: url(images/bi-flag.png);
+    height: 280px;
+    display: block;
+}
+.blob-left {
+    position: relative;
+    right: 300px;
+    top: 350px;
+}
+
+#blob3 {
+    position: relative;
+    right: -20px;
+    top: -690px;
+    height: 340px;
+}
+
+#nb-flag {
+    background-image: url(images/nb.png);
+    margin-top: 450px;
+    height: 300px;
+}
+#cpe {
+    display: block;
+    margin-left: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+}
+#trans-flag {
+    height: 300px;
+    display: block;
+    background-image: url(images/trans-flag.png);
+}
+#picture {
+    display: none;
+}
+#or {
+    display: none;
+}
+#or2 {
+    align-items: center;
+   margin-top: 90px;
+   margin-left: 20px;
+    display: block;
+}
+#nv {
+    display: none;
+}
+#ingredients {
+    display: none;
+}
+
+#other-products {
+    display: none;
+}
+#other-products2 {
+    display: inline-flex;
+    margin-top: 150px;
+    justify-content: space-between;
+    padding: 20px;
+}
+#other-products2 img {
+    height: 110px;
+    justify-content: space-between;
+    padding: 20px;
+}
+#footer2 {
+    background-image: url(images/footer2.png);
+    display: block;
+    height: 1800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#footer-picture {
+    display: none;
+}}

@@ -16,6 +16,7 @@ body {
 .hero-wrapper {
     margin: 0 120px;
 }
+/* HEADER */
 header {
     height: 150px;
 }
@@ -94,6 +95,7 @@ header {
     right: -11px;
     height: 110px;
 }
+/* HEADER END */
 div#slogan-product {
     display: flex;
 }
@@ -142,6 +144,7 @@ h1#slogan-top {
     position: relative;
     top: -400px;
 }
+
 /* MAIN */
 .white {
     height: 450px;
@@ -231,6 +234,7 @@ h1#slogan-top {
     background-size: cover;
     background-repeat: no-repeat;
 }
+/* MY FRIENDS */
 #other-products {
     display: inline-flex;
     margin-top: 200px;
@@ -264,7 +268,10 @@ h1#slogan-top {
 .displaynone {
     display: none;
 }
-/* MEDIA */
+
+
+
+/*--------------------MEDIA--------------------*/
 @media only screen and (max-width: 1023px) {
 #blob1 {
     display: block;
@@ -273,6 +280,7 @@ h1#slogan-top {
     top: 40px;
 }
     /* LANDING */
+    /* HEADER */
 #burger-menu {
     height: 52px;
     min-width: 100px;
